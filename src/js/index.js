@@ -58,8 +58,9 @@
         const nomeSelecionado = personagem.getAttribute('data-name');
         
         nomejogador1.innerHTML = nomeSelecionado; 
+
+        musica.play();
     })
 })
-
 
 
